@@ -1,0 +1,45 @@
+*html {
+    font-size: 10px;
+ }
+$border: 1px solid #EE3124;
+$color: white;
+$back-color: #FFFFFF;
+
+
+%for-btn {
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 5rem;
+    line-height: 1.95rem;
+    padding: 16px 32px;
+}
+%for-btn-hover {
+    border: 1px solid #B20000;
+    cursor: pointer;
+}
+
+.btn_theme_secondary {
+    @extend %for-btn;
+    border: $border;
+    background-color: $back-color;
+}
+.btn_theme_secondary:hover {
+    @extend %for-btn-hover;
+    background-color: $back-color;
+}
+
+.btn_theme_primary {
+    @extend %for-btn;
+    color: $color;
+    border: $border;
+    background-color: #EE3124;
+}
+.btn_theme_primary:hover {
+    @extend %for-btn-hover;
+    color: $color;
+    background-color: #B20000;
+}
+
+
+
+
