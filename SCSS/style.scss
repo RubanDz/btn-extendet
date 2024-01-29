@@ -27,10 +27,6 @@ $back-color: #FFFFFF;
         background-color: $back-color;
     }
 }
-// .btn_theme_secondary:hover {
-//     @extend %for-btn-hover;
-//     background-color: $back-color;
-// }
 
 .btn_theme_primary {
     @extend %for-btn;
@@ -44,11 +40,7 @@ $back-color: #FFFFFF;
     }
 }
 
-// .btn_theme_primary:hover {
-//     @extend %for-btn-hover;
-//     color: $color;
-//     background-color: #B20000;
-// }
+
 
 
 
